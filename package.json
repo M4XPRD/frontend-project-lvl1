@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-	  "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
- "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/M4XPRD/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/M4XPRD/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/M4XPRD/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
