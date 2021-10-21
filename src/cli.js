@@ -1,6 +1,9 @@
 import readlineSync from 'readline-sync';
 
 console.log('Welcome to the Brain Games!');
+
 const userName = readlineSync.question('May i have your name? ');
-export default userName;
-console.log(`Hello, ${userName}!`);
+
+export default () => {
+  console.log(`Hello, ${userName}!`);
+};
