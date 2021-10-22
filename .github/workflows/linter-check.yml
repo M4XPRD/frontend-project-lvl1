@@ -8,7 +8,5 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: npm install
-        run: make install
       - name: Run linter
         run: make lint
