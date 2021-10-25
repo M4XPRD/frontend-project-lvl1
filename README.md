@@ -5,4 +5,4 @@
 
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
-Game #1: brain-even via asciinema <script id="asciicast-444548" src="https://asciinema.org/a/444548.js" async></script>
+Game #1: brain-even via asciinema [![asciicast](https://asciinema.org/a/444548.svg)](https://asciinema.org/a/444548)
