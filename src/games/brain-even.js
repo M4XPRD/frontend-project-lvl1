@@ -17,19 +17,18 @@ const brainEven = () => {
     if (getRandomIntInclusive % 2 === 0 && playerAnswer === 'yes') {
       rightAnswerRow += 1;
       console.log('Correct!');
-    } if (getRandomIntInclusive % 2 === 0 && playerAnswer === 'no') {
-      console.log(`"no" is wrong answer ;(. Correct answer was "yes".\nLet's try again, ${userName}!`);
-      return;
+    } if (getRandomIntInclusive % 2 === 0 && playerAnswer !== 'yes') {
+      return console.log(`"${playerAnswer}" is wrong answer ;(. Correct answer was "yes".\nLet's try again, ${userName}!`);
     } if (getRandomIntInclusive % 2 !== 0 && playerAnswer === 'no') {
       rightAnswerRow += 1;
       console.log('Correct!');
-    } if (getRandomIntInclusive % 2 !== 0 && playerAnswer === 'yes') {
-      console.log(`"yes" is wrong answer ;(. Correct answer was "no".\nLet's try again, ${userName}!`);
-      return;
+    } if (getRandomIntInclusive % 2 !== 0 && playerAnswer !== 'no') {
+      return console.log(`"${playerAnswer}" is wrong answer ;(. Correct answer was "no".\nLet's try again, ${userName}!`);
     } if (rightAnswerRow === 3) {
       return console.log(`Congratulations, ${userName}!`);
     }
   }
+  return console.log();
 };
 
 export default brainEven;
