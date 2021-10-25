@@ -11,29 +11,23 @@ const brainEven = () => {
     const question = `Question: ${getRandomIntInclusive}`;
     console.log(question);
     const playerAnswer = readlineSync.question('Your answer: ');
+
     let rightAnswerRow = 0;
-    if (getRandomIntInclusive % 2 === 0) {
-      if (playerAnswer === 'yes') {
-        rightAnswerRow += 1;
-        console.log('Correct!');
-        const question = `Question: ${getRandomIntInclusive}`;
-        console.log(question);
-      } if (getRandomIntInclusive % 2 !== 0) {
-        if (playerAnswer === 'no') {
-          rightAnswerRow += 1;
-          console.log('Correct!');
-          const question = `Question: ${getRandomIntInclusive}`;
-          console.log(question);
-        }
-      } else {
-        rightAnswerRow = 0;
-        console.log("'yes' is wrong answer ;(. Correct answer was 'no'.");
-        console.log(`Let's try again, ${userName}!`);
-        const question = `Question: ${getRandomIntInclusive}`;
-        console.log(question);
-      } if (rightAnswerRow === 3) {
-        console.log(`Congratulations, ${username}!`);
-      }
+
+    if (getRandomIntInclusive % 2 === 0 && playerAnswer === 'yes') {
+      rightAnswerRow += 1;
+      console.log('Correct!');
+    } else {
+      console.log(`"no" is wrong answer ;(. Correct answer was "yes".\nLet's try again, ${userName}!`);
+      return;
+    } if (getRandomIntInclusive % 2 !== 0 && playerAnswer === 'no') {
+      rightAnswerRow += 1;
+      console.log('Correct!');
+    } else {
+      console.log(`"yes" is wrong answer ;(. Correct answer was "no".\nLet's try again, ${userName}!`);
+      return;
+    } if (rightAnswerRow === 3) {
+      console.log(`Congratulations, ${username}!`);
     }
   }
 };
