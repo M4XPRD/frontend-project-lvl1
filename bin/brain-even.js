@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log('Hi');
+import brainEven from './games/brain-even.js';
+
+brainEven();
