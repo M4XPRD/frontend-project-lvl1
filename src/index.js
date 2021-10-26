@@ -9,8 +9,7 @@ const gameEngine = (gameRule, gameSettings) => {
   let counter = 0;
 
   for (let i = 0; i < 4; i += 1) {
-    const gameQuestion = gameSettings();
-    const gameAnswer = gameSettings();
+    const [gameQuestion, gameAnswer] = gameSettings();
     const question = `Question: ${gameQuestion}`;
     console.log(question);
     const playerAnswer = readlineSync.question('Your answer: ');
