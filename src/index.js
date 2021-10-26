@@ -26,4 +26,4 @@ const gameEngine = (gameRule, gameSettings) => {
   return console.log(`Congratulations, ${userName}!`);
 };
 
-export default gameEngine;
+export default gameEngine();
