@@ -12,6 +12,7 @@ const gameEngine = (gameRule, gameSettings) => {
     const [gameQuestion, gameAnswer] = gameSettings();
     const question = `Question: ${gameQuestion}`;
     console.log(question);
+
     const playerAnswer = readlineSync.question('Your answer: ');
 
     while (counter !== 3) {
