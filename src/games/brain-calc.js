@@ -1,7 +1,5 @@
 import gameEngine from '../index.js';
 
-const gameRule = 'What is the result of the expression?';
-
 const mathOperations = (num1, num2, operators) => {
   let result = '';
   switch (operators) {
@@ -20,17 +18,23 @@ const mathOperations = (num1, num2, operators) => {
   return result;
 };
 
-const gameSettings = () => {
-  const mathOperators = ['+', '-', '*'];
-  const randNumOne = Math.floor(Math.random() * 10);
-  const randNumTwo = Math.floor(Math.random() * 10);
-  const randOperator = Math.floor(Math.random() * 3);
+const mathOperators = ['+', '-', '*'];
+const randNumOne = Math.floor(Math.random() * 10);
+const randNumTwo = Math.floor(Math.random() * 10);
+const randOperator = Math.floor(Math.random() * 3);
 
-  const gameQuestion = `${randNumOne} ${mathOperators[randOperator]} ${randNumTwo}`;
-  const gameAnswer = String(mathOperations(randNumOne, randNumTwo, mathOperators[randOperator]));
-  return [gameQuestion, gameAnswer];
+const gameQuestion = () => {
+  const randomQuestion = `${randNumOne} ${mathOperators[randOperator]} ${randNumTwo}`;
+  return randomQuestion;
 };
 
-const brainCalc = () => gameEngine(gameRule, gameSettings);
+const gameAnswer = () => {
+  const rightAnswer = String(mathOperations(randNumOne, randNumTwo, mathOperators[randOperator]));
+  return rightAnswer;
+};
+
+const gameRule = 'What is the result of the expression?';
+
+const brainCalc = () => gameEngine(gameRule, gameQuestion, gameAnswer);
 
 export default brainCalc;
