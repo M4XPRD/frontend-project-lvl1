@@ -18,23 +18,19 @@ const mathOperations = (num1, num2, operators) => {
   return result;
 };
 
-const mathOperators = ['+', '-', '*'];
-const randNumOne = Math.floor(Math.random() * 10);
-const randNumTwo = Math.floor(Math.random() * 10);
-const randOperator = Math.floor(Math.random() * 3);
+const gameSettings = () => {
+  const mathOperators = ['+', '-', '*'];
+  const randNumOne = Math.floor(Math.random() * 10);
+  const randNumTwo = Math.floor(Math.random() * 10);
+  const randOperator = Math.floor(Math.random() * 3);
 
-const gameQuestion = () => {
   const randomQuestion = `${randNumOne} ${mathOperators[randOperator]} ${randNumTwo}`;
-  return randomQuestion;
-};
-
-const gameAnswer = () => {
   const rightAnswer = String(mathOperations(randNumOne, randNumTwo, mathOperators[randOperator]));
-  return rightAnswer;
+  return [randomQuestion, rightAnswer];
 };
 
 const gameRule = 'What is the result of the expression?';
 
-const brainCalc = () => gameEngine(gameRule, gameQuestion, gameAnswer);
+const brainCalc = () => gameEngine(gameRule, gameSettings);
 
 export default brainCalc;
