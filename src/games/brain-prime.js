@@ -11,7 +11,7 @@ const isPrime = (number) => {
 };
 
 const gameSettings = () => {
-  const randomNumber = getRndInteger(0, 100);
+  const randomNumber = getRndInteger(2, 100);
   const gameQuestion = randomNumber;
   const gameAnswer = String(isPrime(randomNumber));
   return [gameQuestion, gameAnswer];
