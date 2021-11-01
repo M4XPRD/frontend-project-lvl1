@@ -1,4 +1,4 @@
-## Hexlet tests and linter status:
+## Hexlet tests, linter status and CodeClimate check:
 [![Actions Status](https://github.com/M4XPRD/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/M4XPRD/frontend-project-lvl1/actions)
 [![linter-check](https://github.com/M4XPRD/frontend-project-lvl1/actions/workflows/linter-check.yml/badge.svg)](https://github.com/M4XPRD/frontend-project-lvl1/actions/workflows/linter-check.yml)
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
@@ -19,6 +19,10 @@ The game is finished, if you answer correctly three times in a row. The wrong an
 **№4: Determining the greatest common divisor.**
 
 **№5: Determining of a prime number.**
+
+## Installation
+
+To run this game you need to have 
 
 
 ## Games demonstarions via asciinema:
