@@ -27,7 +27,7 @@ The game is finished, if you answer correctly three times in a row. The wrong an
 
 #2: Progression:CALC [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
 
-#3: Determining an even number: [![asciicast](https://asciinema.org/a/445356.svg)](https://asciinema.org/a/445356)
+#3: Determining an even number:GCD [![asciicast](https://asciinema.org/a/445356.svg)](https://asciinema.org/a/445356)
 
 #4: Determining the greatest common divisor: [![asciicast](https://asciinema.org/a/446259.svg)](https://asciinema.org/a/446259)
 
