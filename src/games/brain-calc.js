@@ -1,4 +1,5 @@
 import gameEngine from '../index.js';
+import getRndInteger from '../numberRandomiser.js';
 
 const mathOperations = (num1, num2, operators) => {
   let result = '';
@@ -20,8 +21,8 @@ const mathOperations = (num1, num2, operators) => {
 
 const gameSettings = () => {
   const mathOperators = ['+', '-', '*'];
-  const randNumOne = Math.floor(Math.random() * 10);
-  const randNumTwo = Math.floor(Math.random() * 10);
+  const randNumOne = getRndInteger(1, 10);
+  const randNumTwo = getRndInteger(1, 10);
   const randOperator = Math.floor(Math.random() * 3);
 
   const randomQuestion = `${randNumOne} ${mathOperators[randOperator]} ${randNumTwo}`;

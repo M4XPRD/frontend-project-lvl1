@@ -1,4 +1,5 @@
 import gameEngine from '../index.js';
+import getRndInteger from '../numberRandomiser.js';
 
 const findGCD = (num1, num2) => {
   if (num1 === 0) {
@@ -13,8 +14,8 @@ const findGCD = (num1, num2) => {
 };
 
 const gameSettings = () => {
-  const randNumOne = Math.floor(Math.random() * 50);
-  const randNumTwo = Math.floor(Math.random() * 50);
+  const randNumOne = getRndInteger(1, 50);
+  const randNumTwo = getRndInteger(1, 50);
   const gameQuestion = `${randNumOne} ${randNumTwo}`;
   const gameAnswer = String(findGCD(randNumOne, randNumTwo));
   return [gameQuestion, gameAnswer];
