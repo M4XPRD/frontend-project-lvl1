@@ -23,9 +23,9 @@ The game is finished, if you answer correctly three times in a row. The wrong an
 
 ## Games demonstarions via asciinema:
 
-#1: Calculator: [![asciicast](https://asciinema.org/a/444554.svg)](https://asciinema.org/a/444554)
+#1: Calculator:EVEN [![asciicast](https://asciinema.org/a/444554.svg)](https://asciinema.org/a/444554)
 
-#2: Progression: [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
+#2: Progression:CALC [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
 
 #3: Determining an even number: [![asciicast](https://asciinema.org/a/445356.svg)](https://asciinema.org/a/445356)
 
