@@ -20,12 +20,12 @@
 
 ### Games demonstarions via asciinema:
 
-#1: Calculator. [![asciicast](https://asciinema.org/a/444554.svg)](https://asciinema.org/a/444554)
+#1: Calculator: [![asciicast](https://asciinema.org/a/444554.svg)](https://asciinema.org/a/444554)
 
-#2: Progression. [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
+#2: Progression: [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
 
-#3: Determining an even number. [![asciicast](https://asciinema.org/a/445356.svg)](https://asciinema.org/a/445356)
+#3: Determining an even number: [![asciicast](https://asciinema.org/a/445356.svg)](https://asciinema.org/a/445356)
 
-#4: Determining the greatest common divisor. [![asciicast](https://asciinema.org/a/446259.svg)](https://asciinema.org/a/446259)
+#4: Determining the greatest common divisor: [![asciicast](https://asciinema.org/a/446259.svg)](https://asciinema.org/a/446259)
 
-#5: Determining of a prime number. [![asciicast](https://asciinema.org/a/446284.svg)](https://asciinema.org/a/446284)
+#5: Determining of a prime number: [![asciicast](https://asciinema.org/a/446284.svg)](https://asciinema.org/a/446284)
