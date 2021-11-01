@@ -21,7 +21,7 @@ The game is finished, if you answer correctly three times in a row. The wrong an
 **#5: Determining of a prime number.**
 
 
-### Games demonstarions via asciinema:
+## Games demonstarions via asciinema:
 
 #1: Calculator: [![asciicast](https://asciinema.org/a/444554.svg)](https://asciinema.org/a/444554)
 
