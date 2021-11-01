@@ -10,3 +10,5 @@ Game #2: brain-calc via asciinema [![asciicast](https://asciinema.org/a/445228.s
 Game #3: brain-gcd via asciinema [![asciicast](https://asciinema.org/a/445356.svg)](https://asciinema.org/a/445356)
 
 Game #4: brain-progression via asciinema [![asciicast](https://asciinema.org/a/446259.svg)](https://asciinema.org/a/446259)
+
+Game #5: brain-prime via asciinema [![asciicast](https://asciinema.org/a/446284.svg)](https://asciinema.org/a/446284)
