@@ -10,15 +10,15 @@
 The game is finished, if you answer correctly three times in a row. The wrong answers would stop the game and you'll have a message of asking to try to play again once more. The list of games:
 
 
-**#1: Calculator.** It's about arithmetic expressions that need to be calculated.
+**№1: Calculator.** It's about arithmetic expressions that need to be calculated.
 
-**#2: Progression.** It's about finding missing numbers in a sequence of numbers.
+**№2: Progression.** It's about finding missing numbers in a sequence of numbers.
 
-**#3: Determining an even number.**
+**№3: Determining an even number.**
 
-**#4: Determining the greatest common divisor.**
+**№4: Determining the greatest common divisor.**
 
-**#5: Determining of a prime number.**
+**№5: Determining of a prime number.**
 
 
 ## Games demonstarions via asciinema:
