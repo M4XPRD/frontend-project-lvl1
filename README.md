@@ -9,6 +9,7 @@
 
 The game is finished, if you answer correctly three times in a row. The wrong answers would stop the game and you'll have a message of asking to try to play again once more. The list of games:
 
+
 **#1: Calculator.** It's about arithmetic expressions that need to be calculated.
 
 **#2: Progression.** It's about finding missing numbers in a sequence of numbers.
