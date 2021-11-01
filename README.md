@@ -5,7 +5,7 @@
 
 ### What is this all about?
 
-«Brain games» is a set of 5 different games which is built on the principle similar to popular mobile applications for brain pumping. Each game asks questions that need to be answered correctly. The game is finished, if you answer correctly three times in a row. The wrong answers would stop the game and you'll have a message of asking to try to play again once more. The list of games:
+«Brain games» is a set of 5 different games which is built in the way similar to popular mobile applications for brain pumping. Each game asks questions that need to be answered correctly. The game is finished, if you answer correctly three times in a row. The wrong answers would stop the game and you'll have a message of asking to try to play again once more. The list of games:
 
 #1: Calculator. It's about arithmetic expressions that need to be calculated.
 
