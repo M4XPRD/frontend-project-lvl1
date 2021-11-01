@@ -18,14 +18,14 @@
 #5: Determining of a prime number.
 
 
-### Games demonstarions via asciinema
+### Games demonstarions via asciinema:
 
-Game #1: brain-even via asciinema [![asciicast](https://asciinema.org/a/444554.svg)](https://asciinema.org/a/444554)
+#1: Calculator. [![asciicast](https://asciinema.org/a/444554.svg)](https://asciinema.org/a/444554)
 
-Game #2: brain-calc via asciinema [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
+#2: Progression. [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
 
-Game #3: brain-gcd via asciinema [![asciicast](https://asciinema.org/a/445356.svg)](https://asciinema.org/a/445356)
+#3: Determining an even number. [![asciicast](https://asciinema.org/a/445356.svg)](https://asciinema.org/a/445356)
 
-Game #4: brain-progression via asciinema [![asciicast](https://asciinema.org/a/446259.svg)](https://asciinema.org/a/446259)
+#4: Determining the greatest common divisor. [![asciicast](https://asciinema.org/a/446259.svg)](https://asciinema.org/a/446259)
 
-Game #5: brain-prime via asciinema [![asciicast](https://asciinema.org/a/446284.svg)](https://asciinema.org/a/446284)
+#5: Determining of a prime number. [![asciicast](https://asciinema.org/a/446284.svg)](https://asciinema.org/a/446284)
