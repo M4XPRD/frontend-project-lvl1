@@ -1,7 +1,7 @@
 ## Hexlet tests, CodeClimate check and linter status:
 [![Actions Status](https://github.com/M4XPRD/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/M4XPRD/frontend-project-lvl1/actions)
 [![linter-check](https://github.com/M4XPRD/frontend-project-lvl1/actions/workflows/linter-check.yml/badge.svg)](https://github.com/M4XPRD/frontend-project-lvl1/actions/workflows/linter-check.yml)
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+[![Maintainability](https://api.codeclimate.com/v1/badges/021cbf28f84e6d29945d/maintainability)](https://codeclimate.com/github/M4XPRD/frontend-project-lvl1/maintainability)
 
 ## What is this all about?
 
@@ -28,19 +28,19 @@ Here's the quick guide, if everything is set up:
 
 ```sh
 # Step 1 — clone my repository
-https://github.com/M4XPRD/frontend-project-lvl1.git
+$ https://github.com/M4XPRD/frontend-project-lvl1.git
 
 # Step 2 — proceed to my folder
-cd frontend-project-lvl1
+$ cd frontend-project-lvl1
 
 # Step 3 — install the dependencies
-make install
+$ make install
 
 # Step 4 — install the packages
-sudo npm link
+$ sudo npm link
 
 # Step 5 — use the special command to run the game
-brain-games
+$ brain-games
 ```
 
 The list of all commands:
