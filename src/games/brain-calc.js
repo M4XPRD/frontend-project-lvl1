@@ -14,7 +14,7 @@ const mathOperations = (num1, num2, operators) => {
       result = num1 * num2;
       break;
     default:
-      break;
+      return null;
   }
   return result;
 };
