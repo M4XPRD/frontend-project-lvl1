@@ -22,7 +22,7 @@ The game is finished, if you answer correctly three times in a row. The wrong an
 
 ## Installation
 
-To run this game you need to have [Node.js v 16.8.0](https://nodejs.org/en/) or later.
+To run this game make sure you have [Node.js v 16.8.0](https://nodejs.org/en/) or later.
 
 Here's the quick guide:
 
