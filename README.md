@@ -29,10 +29,13 @@ Here's the quick guide:
 ```
 # Step 1 — clone my repository
 https://github.com/M4XPRD/frontend-project-lvl1.git
+
 # Step 2 — proceed to my folder
 cd frontend-project-lvl1
+
 # Step 3 — install the dependencies
 npm ci
+
 # Step 4 — install the packages
 npm link
 ```
