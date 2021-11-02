@@ -10,23 +10,23 @@
 The game is finished, if you answer correctly three times in a row. The wrong answers would stop the game and you'll have a message of asking to try to play again once more. The list of games:
 
 
-**№1: Calculator.** It's about arithmetic expressions that need to be calculated.
+**• <a href="#brain-calc">Calculator</a>.** It's about arithmetic expressions that need to be calculated.
 
-**№2: Progression.** It's about finding missing numbers in a sequence of numbers.
+**• Progression.** It's about finding missing numbers in a sequence of numbers.
 
-**№3: Determining an even number.**
+**• Determining an even number.**
 
-**№4: Determining the greatest common divisor.**
+**• Determining the greatest common divisor.**
 
-**№5: Determining of a prime number.**
+**• Determining of a prime number.**
 
 ## Installation
 
-To run this game you need to have Node.js v 16.8.0 or later.
+To run this game you need to have [Node.js v 16.8.0](https://nodejs.org/en/) or later.
 
 Here's the quick guide:
 
-```
+```sh
 # Step 1 — clone my repository
 https://github.com/M4XPRD/frontend-project-lvl1.git
 
@@ -41,22 +41,22 @@ npm link
 ```
 ## Games demonstarions via asciinema:
 
-№1. Calculator: *brain-calc* command 
+• <div id="brain-calc">Calculator</div>: type *brain-calc* command 
 
 [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
 
-№2. Progression: *brain-progression* command
+• Progression: type *brain-progression* command
 
 [![asciicast](https://asciinema.org/a/446259.svg)](https://asciinema.org/a/446259)
 
-№3. Determining an even number: *brain-even* command
+• Determining an even number: type *brain-even* command
 
 [![asciicast](https://asciinema.org/a/444554.svg)](https://asciinema.org/a/444554)
 
-№4. Determining the greatest common divisor: *brain-gcd* command
+• Determining the greatest common divisor: type *brain-gcd* command
 
 [![asciicast](https://asciinema.org/a/445356.svg)](https://asciinema.org/a/445356)
 
-№5. Determining of a prime number: *brain-prime* command
+• Determining of a prime number: type *brain-prime* command
 
 [![asciicast](https://asciinema.org/a/446284.svg)](https://asciinema.org/a/446284)
