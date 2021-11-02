@@ -10,7 +10,7 @@
 The game is finished, if you answer correctly three times in a row. The wrong answers would stop the game and you'll have a message of asking to try to play again once more. The list of games:
 
 
-**• <a href="#brain-calc">Calculator</a>.** It's about arithmetic expressions that need to be calculated.
+**• Calculator.** It's about arithmetic expressions that need to be calculated.
 
 **• Progression.** It's about finding missing numbers in a sequence of numbers.
 
@@ -41,7 +41,7 @@ npm link
 ```
 ## Games demonstarions via asciinema:
 
-• <div id="brain-calc">Calculator</div>: type *brain-calc* command 
+• Calculator: type *brain-calc* command 
 
 [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
 
