@@ -38,6 +38,20 @@ make install
 
 # Step 4 — install the packages
 sudo npm link
+
+# Step 5 — use the special command to run the game
+brain-games
+```
+
+The list of all commands:
+
+```sh
+$ brain-games
+$ brain-calc
+$ brain-progression
+$ brain-even
+$ brain-gcd
+$ brain-prime
 ```
 ## Games demonstarions via asciinema:
 
