@@ -47,11 +47,17 @@ The list of all commands:
 
 ```sh
 $ brain-games
+
 $ brain-calc
+
 $ brain-progression
+
 $ brain-even
+
 $ brain-gcd
+
 $ brain-prime
+
 ```
 ## Games demonstarions via asciinema:
 
