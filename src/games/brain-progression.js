@@ -3,10 +3,9 @@ import getRndInteger from '../numberRandomiser.js';
 
 const gameRule = 'What number is missing in the progression?';
 
-const progressionArray = (number, step) => {
+const progressionArray = (number, length, step) => {
   const newArray = [];
-  const arrayLength = getRndInteger(5, 15);
-  for (let i = number; newArray.length < arrayLength; i += step) {
+  for (let i = number; newArray.length < length; i += step) {
     newArray.push(i);
   }
   return newArray;
@@ -15,8 +14,9 @@ const progressionArray = (number, step) => {
 const getGameData = () => {
   const randomNumber = getRndInteger(1, 10);
   const rowStep = getRndInteger(1, 5);
+  const arrayLength = getRndInteger(5, 15);
 
-  const gameProgression = progressionArray(randomNumber, rowStep);
+  const gameProgression = progressionArray(randomNumber, arrayLength, rowStep);
   const randomIndex = getRndInteger(0, gameProgression.length - 1);
 
   const hiddenNumber = (number) => {
