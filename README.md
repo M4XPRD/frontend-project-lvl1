@@ -24,7 +24,18 @@ The game is finished, if you answer correctly three times in a row. The wrong an
 
 To run this game you need to have Node.js v 16.8.0 or later.
 
+Here's the quick guide:
 
+```
+# Step 1 — clone my repository
+https://github.com/M4XPRD/frontend-project-lvl1.git
+# Step 2 — proceed to my folder
+cd frontend-project-lvl1
+# Step 3 — install the dependencies
+npm ci
+# Step 4 — install the packages
+npm link
+```
 ## Games demonstarions via asciinema:
 
 №1: Calculator: [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
