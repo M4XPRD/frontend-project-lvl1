@@ -10,7 +10,7 @@ const progressionArray = (number, step) => {
   return newArray;
 };
 
-const gameSettings = () => {
+const getGameData = () => {
   const randomNumber = getRndInteger(1, 10);
   const rowStep = getRndInteger(1, 5);
 
@@ -36,6 +36,6 @@ const gameSettings = () => {
 
 const gameRule = 'What number is missing in the progression?';
 
-const brainProgression = () => gameEngine(gameRule, gameSettings);
+const brainProgression = () => gameEngine(gameRule, getGameData);
 
 export default brainProgression;

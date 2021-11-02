@@ -19,7 +19,7 @@ const mathOperations = (num1, num2, operators) => {
   return result;
 };
 
-const gameSettings = () => {
+const getGameData = () => {
   const mathOperators = ['+', '-', '*'];
   const randNumOne = getRndInteger(1, 10);
   const randNumTwo = getRndInteger(1, 10);
@@ -32,6 +32,6 @@ const gameSettings = () => {
 
 const gameRule = 'What is the result of the expression?';
 
-const brainCalc = () => gameEngine(gameRule, gameSettings);
+const brainCalc = () => gameEngine(gameRule, getGameData);
 
 export default brainCalc;

@@ -10,7 +10,7 @@ const isPrime = (number) => {
   return 'yes';
 };
 
-const gameSettings = () => {
+const getGameData = () => {
   const randomNumber = getRndInteger(2, 100);
   const gameQuestion = randomNumber;
   const gameAnswer = String(isPrime(randomNumber));
@@ -19,6 +19,6 @@ const gameSettings = () => {
 
 const gameRule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const brainPrime = () => gameEngine(gameRule, gameSettings);
+const brainPrime = () => gameEngine(gameRule, getGameData);
 
 export default brainPrime;

@@ -13,7 +13,7 @@ const findGCD = (num1, num2) => {
   return i;
 };
 
-const gameSettings = () => {
+const getGameData = () => {
   const randNumOne = getRndInteger(1, 50);
   const randNumTwo = getRndInteger(1, 50);
   const gameQuestion = `${randNumOne} ${randNumTwo}`;
@@ -23,6 +23,6 @@ const gameSettings = () => {
 
 const gameRule = 'Find the greatest common divisor of given numbers.';
 
-const brainGCD = () => gameEngine(gameRule, gameSettings);
+const brainGCD = () => gameEngine(gameRule, getGameData);
 
 export default brainGCD;
