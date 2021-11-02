@@ -41,7 +41,7 @@ npm link
 ```
 ## Games demonstarions via asciinema:
 
-№1: Calculator: [<img src="./asciinema/even.svg">](https://asciinema.org/a/445228)
+№1: Calculator: [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
 
 №2: Progression: [![asciicast](https://asciinema.org/a/446259.svg)](https://asciinema.org/a/446259)
 
