@@ -46,6 +46,7 @@ $ brain-games
 The list of all commands:
 
 ```sh
+#This first command just welcomes you
 $ brain-games
 
 $ brain-calc
