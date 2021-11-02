@@ -28,19 +28,19 @@ Here's the quick guide, if everything is set up:
 
 ```sh
 # Step 1 — clone my repository
-https://github.com/M4XPRD/frontend-project-lvl1.git
+$ https://github.com/M4XPRD/frontend-project-lvl1.git
 
 # Step 2 — proceed to my folder
-cd frontend-project-lvl1
+$ cd frontend-project-lvl1
 
 # Step 3 — install the dependencies
-make install
+$ make install
 
 # Step 4 — install the packages
-sudo npm link
+$ sudo npm link
 
 # Step 5 — use the special command to run the game
-brain-games
+$ brain-games
 ```
 
 The list of all commands:
