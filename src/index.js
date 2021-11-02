@@ -14,10 +14,11 @@ const gameEngine = (gameRule, getGameData) => {
     if (rightAnswer === playerAnswer) {
       console.log('Correct!');
     } if (rightAnswer !== playerAnswer) {
-      return console.log(`"${playerAnswer}" is wrong answer ;(. Correct answer was "${rightAnswer}".\nLet's try again, ${userName}!`);
+      console.log(`"${playerAnswer}" is wrong answer ;(. Correct answer was "${rightAnswer}".\nLet's try again, ${userName}!`);
+      return;
     }
   }
-  return console.log(`Congratulations, ${userName}!`);
+  console.log(`Congratulations, ${userName}!`);
 };
 
 export default gameEngine;
