@@ -22,7 +22,7 @@ The game is finished, if you answer correctly three times in a row. The wrong an
 
 ## Installation
 
-To run this game you need to have 
+To run this game you need to have Node.js v 16.8.0 or later.
 
 
 ## Games demonstarions via asciinema:
