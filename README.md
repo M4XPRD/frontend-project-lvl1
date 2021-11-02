@@ -49,7 +49,7 @@ The list of all commands:
 #This first command just welcomes you
 $ brain-games
 
-#These 5 commands start the actual games
+#These 5 commands below start the actual games
 $ brain-calc
 
 $ brain-progression
