@@ -24,7 +24,7 @@ The game is finished, if you answer correctly three times in a row. The wrong an
 
 To run this game make sure you have [Node.js v 16.8.0](https://nodejs.org/en/) or later.
 
-Here's the quick guide:
+Here's the quick guide, if Node.js and Git are set up:
 
 ```sh
 # Step 1 — clone my repository
