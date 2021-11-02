@@ -1,7 +1,7 @@
 ## Hexlet tests, CodeClimate check and linter status:
 [![Actions Status](https://github.com/M4XPRD/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/M4XPRD/frontend-project-lvl1/actions)
 [![linter-check](https://github.com/M4XPRD/frontend-project-lvl1/actions/workflows/linter-check.yml/badge.svg)](https://github.com/M4XPRD/frontend-project-lvl1/actions/workflows/linter-check.yml)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/021cbf28f84e6d29945d/maintainability)](https://codeclimate.com/github/M4XPRD/frontend-project-lvl1/maintainability)
 
 ## What is this all about?
 
