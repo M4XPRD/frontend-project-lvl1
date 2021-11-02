@@ -37,7 +37,7 @@ cd frontend-project-lvl1
 make install
 
 # Step 4 — install the packages
-npm link
+sudo npm link
 ```
 ## Games demonstarions via asciinema:
 
