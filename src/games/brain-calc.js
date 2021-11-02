@@ -23,7 +23,7 @@ const gameSettings = () => {
   const mathOperators = ['+', '-', '*'];
   const randNumOne = getRndInteger(1, 10);
   const randNumTwo = getRndInteger(1, 10);
-  const randOperator = Math.floor(Math.random() * 3);
+  const randOperator = getRndInteger(0, 2);
 
   const randomQuestion = `${randNumOne} ${mathOperators[randOperator]} ${randNumTwo}`;
   const rightAnswer = String(mathOperations(randNumOne, randNumTwo, mathOperators[randOperator]));
