@@ -1,6 +1,8 @@
 import gameEngine from '../index.js';
 import getRndInteger from '../numberRandomiser.js';
 
+const gameRule = 'What number is missing in the progression?';
+
 const progressionArray = (number, step) => {
   const newArray = [];
   const arrayLength = getRndInteger(5, 15);
@@ -33,8 +35,6 @@ const getGameData = () => {
 
   return [gameQuestion, gameAnswer];
 };
-
-const gameRule = 'What number is missing in the progression?';
 
 const brainProgression = () => gameEngine(gameRule, getGameData);
 

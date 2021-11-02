@@ -1,6 +1,8 @@
 import gameEngine from '../index.js';
 import getRndInteger from '../numberRandomiser.js';
 
+const gameRule = 'What is the result of the expression?';
+
 const mathOperations = (num1, num2, operators) => {
   let result = '';
   switch (operators) {
@@ -29,8 +31,6 @@ const getGameData = () => {
   const rightAnswer = String(mathOperations(randNumOne, randNumTwo, mathOperators[randOperator]));
   return [randomQuestion, rightAnswer];
 };
-
-const gameRule = 'What is the result of the expression?';
 
 const brainCalc = () => gameEngine(gameRule, getGameData);
 
