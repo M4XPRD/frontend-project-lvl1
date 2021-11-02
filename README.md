@@ -61,22 +61,22 @@ $ brain-prime
 ```
 ## Games demonstarions via asciinema:
 
-• Calculator: type *brain-calc* command 
+• Calculator: use *brain-calc* command 
 
 [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
 
-• Progression: type *brain-progression* command
+• Progression: use *brain-progression* command
 
 [![asciicast](https://asciinema.org/a/446259.svg)](https://asciinema.org/a/446259)
 
-• Determining an even number: type *brain-even* command
+• Determining an even number: use *brain-even* command
 
 [![asciicast](https://asciinema.org/a/444554.svg)](https://asciinema.org/a/444554)
 
-• Determining the greatest common divisor: type *brain-gcd* command
+• Determining the greatest common divisor: use *brain-gcd* command
 
 [![asciicast](https://asciinema.org/a/445356.svg)](https://asciinema.org/a/445356)
 
-• Determining of a prime number: type *brain-prime* command
+• Determining of a prime number: use *brain-prime* command
 
 [![asciicast](https://asciinema.org/a/446284.svg)](https://asciinema.org/a/446284)
