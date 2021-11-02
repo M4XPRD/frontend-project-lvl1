@@ -42,16 +42,21 @@ npm link
 ## Games demonstarions via asciinema:
 
 №1: Calculator: *brain-calc* command 
+
 [![asciicast](https://asciinema.org/a/445228.svg)](https://asciinema.org/a/445228)
 
-№2: Progression: *brain-progression* command 
+№2: Progression: *brain-progression* command
+
 [![asciicast](https://asciinema.org/a/446259.svg)](https://asciinema.org/a/446259)
 
-№3: Determining an even number: *brain-even* command 
+№3: Determining an even number: *brain-even* command
+
 [![asciicast](https://asciinema.org/a/444554.svg)](https://asciinema.org/a/444554)
 
-№4: Determining the greatest common divisor: *brain-gcd* command 
+№4: Determining the greatest common divisor: *brain-gcd* command
+
 [![asciicast](https://asciinema.org/a/445356.svg)](https://asciinema.org/a/445356)
 
-№5: Determining of a prime number: *brain-prime* command 
+№5: Determining of a prime number: *brain-prime* command
+
 [![asciicast](https://asciinema.org/a/446284.svg)](https://asciinema.org/a/446284)
