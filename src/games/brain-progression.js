@@ -19,17 +19,9 @@ const getGameData = () => {
   const gameProgression = progressionArray(randomNumber, arrayLength, rowStep);
   const randomIndex = getRndInteger(0, gameProgression.length - 1);
 
-  const hiddenNumber = (number) => {
-    let result = number;
-    if (number > gameProgression.length) {
-      result -= 1;
-    }
-    return result;
-  };
+  const gameAnswer = String(gameProgression[randomIndex]);
 
-  const gameAnswer = String(gameProgression[hiddenNumber(randomIndex)]);
-
-  gameProgression[hiddenNumber(randomIndex)] = '..';
+  gameProgression[randomIndex] = '..';
 
   const gameQuestion = gameProgression.join(' ');
 
