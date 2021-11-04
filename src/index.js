@@ -14,7 +14,7 @@ const gameEngine = (gameRule, getGameData) => {
 
     if (rightAnswer === playerAnswer) {
       console.log('Correct!');
-    } if (rightAnswer !== playerAnswer) {
+    } else {
       console.log(`"${playerAnswer}" is wrong answer ;(. Correct answer was "${rightAnswer}".\nLet's try again, ${userName}!`);
       return;
     }
