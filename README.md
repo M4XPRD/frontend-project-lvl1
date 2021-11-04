@@ -5,9 +5,9 @@
 
 ## What is this all about?
 
-«Brain games» is a set of 5 different games which is built in the way similar to popular mobile applications for brain pumping. Each game asks questions that need to be answered correctly. 
+«Brain games» is a set of 5 different games which are similar to popular mobile applications for brain pumping. Each game asks questions that need to be answered correctly. 
 
-The game is finished, if you answer correctly three times in a row. The wrong answers would stop the game and you'll have a message of asking to try to play again once more. The list of games:
+The game is finished, if you answer correctly three times in a row. If the answer is wrong the game stops, and you'll have a message asking to try to play again once more. The list of games:
 
 
 **• Calculator.** It's about arithmetic expressions that need to be calculated.
@@ -18,7 +18,7 @@ The game is finished, if you answer correctly three times in a row. The wrong an
 
 **• Determining the greatest common divisor.**
 
-**• Determining of a prime number.**
+**• Determining a prime number.**
 
 ## Installation
 
