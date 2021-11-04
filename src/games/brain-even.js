@@ -12,7 +12,7 @@ const isEven = (number) => {
 
 const getGameData = () => {
   const randomNumber = getRndInteger(0, 20);
-  const gameQuestion = `${randomNumber}`;
+  const gameQuestion = randomNumber.toString();
   const gameAnswer = isEven(gameQuestion) ? 'yes' : 'no';
   return [gameQuestion, gameAnswer];
 };
