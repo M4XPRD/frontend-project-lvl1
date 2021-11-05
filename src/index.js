@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync';
-import gameRounds from './gameRounds.js';
+
+const gameRounds = 3;
 
 const gameEngine = (gameRule, getGameData) => {
   console.log('Welcome to the Brain Games!');
