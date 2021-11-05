@@ -28,7 +28,7 @@ Here's the quick guide, if everything is set up:
 
 ```sh
 # Step 1 — clone my repository
-$ https://github.com/M4XPRD/frontend-project-lvl1.git
+$ git clone https://github.com/M4XPRD/frontend-project-lvl1.git
 
 # Step 2 — proceed to my folder
 $ cd frontend-project-lvl1
